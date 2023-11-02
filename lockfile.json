@@ -290,6 +290,12 @@
   "ledger": {
     "revision": "8a841fb20ce683bfbb3469e6ba67f2851cfdf94a"
   },
+  "leo": {
+    "revision": "91d7aa606f524cf4f5df7f4aacb45b4056fac704"
+  },
+  "liquidsoap": {
+    "revision": "cff1fea7c2ef9eed066a4d3de8af6cb4d7117056"
+  },
   "llvm": {
     "revision": "d47c95d78ef0e7495a74d214dd6fcddf6e402dfc"
   },
@@ -336,7 +342,7 @@
     "revision": "e1d9337864d209898a08c26b8cd4c2dd14c15148"
   },
   "nim": {
-    "revision": "7550f55c3f3dab32c6cb42d22907d75876a0ca74"
+    "revision": "1f9308c9e440ddbc67c0aaeb9396c992d266b281"
   },
   "nim_format_string": {
     "revision": "d45f75022d147cda056e98bfba68222c9c8eca3a"
@@ -378,7 +384,7 @@
     "revision": "e01767921df18142055d97407595329d7629e643"
   },
   "perl": {
-    "revision": "79e88f64681660f3961939bf764d8f3b4bbb0d27"
+    "revision": "e99bb5283805db4cb86c964722d709df21b0ac16"
   },
   "php": {
     "revision": "d76de26b8218df208949f46b31e0c422020eda3a"
@@ -495,7 +501,7 @@
     "revision": "05f949d3c1c15e3261473a244d3ce87777374dec"
   },
   "sql": {
-    "revision": "3dfa1b1fafac51e3ffc39064eafb26b5111861a2"
+    "revision": "4ee5a6ad1542cf3f0e2afde91863f1fe74e28154"
   },
   "squirrel": {
     "revision": "e8b5835296f931bcaa1477d3c5a68a0c5c2ba034"
@@ -555,13 +561,16 @@
     "revision": "085437f5cb117703b7f520dd92161140a684f092"
   },
   "twig": {
-    "revision": "779ee5ab1e065dcef7f51f253030dc875445b25f"
+    "revision": "eaf80e6af969e25993576477a9dbdba3e48c1305"
   },
   "typescript": {
     "revision": "b1bf4825d9eaa0f3bdeb1e52f099533328acfbdf"
   },
   "ungrammar": {
     "revision": "debd26fed283d80456ebafa33a06957b0c52e451"
+  },
+  "unison": {
+    "revision": "a69d087590f2ca057d1ef1a393de7e22869bb557"
   },
   "usd": {
     "revision": "718a6b3e939904e0b4fe7cff6742e96af4781f4b"
@@ -597,7 +606,7 @@
     "revision": "a041228ae64632f59b9bd37346a0dbcb7817f36b"
   },
   "wing": {
-    "revision": "480bee435849a5b7bc6516bf71538136593d09c4"
+    "revision": "58ba1ae91c61b69d74172c856a7d013d18d047a5"
   },
   "xml": {
     "revision": "9deacbfb79cb3527a0396255beb17e1bba3f2052"
