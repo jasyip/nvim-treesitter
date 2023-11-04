@@ -1986,6 +1986,16 @@ list.udev = {
   maintainers = { "@ObserverOfTime" },
 }
 
+list.typst = {
+  install_info = {
+    url = "https://github.com/uben0/tree-sitter-typst",
+    files = { "src/parser.c", "src/scanner.c" },
+    generate_requires_npm = true,
+  },
+  maintainers = { "uben0" },
+  experimental = true,
+}
+
 list.ungrammar = {
   install_info = {
     url = "https://github.com/Philipp-M/tree-sitter-ungrammar",
