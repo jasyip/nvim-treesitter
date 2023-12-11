@@ -11,8 +11,6 @@
   name: (identifier) @type)
 (method_definition
   name: (identifier) @method)
-(inflight_method_definition
-  name: (identifier) @method)
 
 ; Functions
 
@@ -36,7 +34,7 @@
 
 ; Special
 
-(comment) @comment
+(comment) @comment @spell
 
 [
   "("
@@ -78,7 +76,6 @@
   "for"
   "if"
   "in"
-  "init"
   "let"
   "new"
   "return"

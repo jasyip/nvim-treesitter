@@ -1,6 +1,5 @@
-((preproc_def (preproc_arg) @hlsl)
-  (#lua-match? @hlsl "\n"))
-(preproc_function_def (preproc_arg) @hlsl)
-(preproc_call (preproc_arg) @hlsl)
+((preproc_arg) @injection.content
+ (#set! injection.language "hlsl"))
 
-(comment) @comment
+((comment) @injection.content
+ (#set! injection.language "comment"))
