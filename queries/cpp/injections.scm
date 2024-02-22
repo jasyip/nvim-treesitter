@@ -1,8 +1,8 @@
 ((preproc_arg) @injection.content
- (#set! injection.language "cpp"))
+  (#set! injection.language "cpp"))
 
-((comment) @injection.content 
- (#set! injection.language "comment"))
+((comment) @injection.content
+  (#set! injection.language "comment"))
 
 ((comment) @injection.content
   (#lua-match? @injection.content "/[*][!<*][^a-zA-Z]")
