@@ -6,13 +6,13 @@
     "revision": "d3dc807692e6bca671d4491b3bf5c67eeca8c016"
   },
   "angular": {
-    "revision": "3946b1040b98a12458beef2763ce4780a523e3c6"
+    "revision": "6f34e6b82b4765a288b0477be08912600fdc1483"
   },
   "apex": {
     "revision": "857077f9e6bb04df0f769c18d32bfe036911adc8"
   },
   "arduino": {
-    "revision": "a282270857b7be447b8be91411468349a31d73b7"
+    "revision": "7722d4398d87ea22c4877264f88b45bd7ce0cba5"
   },
   "asm": {
     "revision": "6ace266be7ad6bf486a95427ca3fc949aff66211"
@@ -75,7 +75,7 @@
     "revision": "cf10fc38bc24faf0549d59217ff37c789973dfdc"
   },
   "cooklang": {
-    "revision": "5e113412aadb78955c27010daa4dbe1d202013cf"
+    "revision": "81c2a8667846b1e60db68b5601d864fe00fd1d3a"
   },
   "corn": {
     "revision": "604d73c38d4c28ca68e9e441ffd405d68cb63051"
@@ -165,7 +165,7 @@
     "revision": "215e3913524abc119daa9db7cf6ad2f2f5620189"
   },
   "fidl": {
-    "revision": "bdbb635a7f5035e424f6173f2f11b9cd79703f8d"
+    "revision": "0a8910f293268e27ff554357c229ba172b0eaed2"
   },
   "firrtl": {
     "revision": "2b5adae629c8cba528c7b1e4aa67a8ae28934ea5"
@@ -240,7 +240,7 @@
     "revision": "949a8a470559543857a62102c84700d291fc984c"
   },
   "gpg": {
-    "revision": "e8a95ae3deed7d7637c33f635fc5b9fc9dbb3216"
+    "revision": "7fd855d7b5442d6eb4b3f2f8797b572b78d4afe6"
   },
   "graphql": {
     "revision": "5e66e961eee421786bdda8495ed1db045e06b5fe"
@@ -258,7 +258,7 @@
     "revision": "3d4af179414525a35dd069ba0208c9b71093d8b3"
   },
   "haskell": {
-    "revision": "8a99848fc734f9c4ea523b3f2a07df133cbbcec2"
+    "revision": "6b5ec205c9d4f23eb36a163f1edc4f2db8c98e4a"
   },
   "haskell_persistent": {
     "revision": "577259b4068b2c281c9ebf94c109bd50a74d5857"
@@ -312,7 +312,7 @@
     "revision": "99b29f1ed957b3b424b6e21f57bd21a9732a622a"
   },
   "javascript": {
-    "revision": "9802cc5812a19cd28168076af36e88b463dd3a18"
+    "revision": "51aed7263d33bee46b0a8a5e165ffcb690d5aca8"
   },
   "jq": {
     "revision": "13990f530e8e6709b7978503da9bc8701d366791"
@@ -414,10 +414,10 @@
     "revision": "3bc691d2cfba44bea339a775ad496c8bc552c60d"
   },
   "nickel": {
-    "revision": "19fb551196d18b75160631f5e3a8a006b3875276"
+    "revision": "33a64ec9a27058c52e4195f1030235dcdfc04747"
   },
   "nim": {
-    "revision": "c5f0ce3b65222f5dbb1a12f9fe894524881ad590"
+    "revision": "f5cec6a841b585e4e7388a120ded07e60ae19c43"
   },
   "nim_format_string": {
     "revision": "d45f75022d147cda056e98bfba68222c9c8eca3a"
@@ -465,13 +465,13 @@
     "revision": "db307bbb7dc4f721bf2f5ba7fcedaf58feeb59e0"
   },
   "perl": {
-    "revision": "fd8b951cf6f72d48dfd07679de8cf0260836b231"
+    "revision": "6526e5d5bf31501de0dc51c42ac3583078a8fdab"
   },
   "php": {
-    "revision": "710754c879435178b7643e525c84cd53f32c510c"
+    "revision": "78a78df5e06b4c13173af2a1f607c9a853d0f240"
   },
   "php_only": {
-    "revision": "710754c879435178b7643e525c84cd53f32c510c"
+    "revision": "78a78df5e06b4c13173af2a1f607c9a853d0f240"
   },
   "phpdoc": {
     "revision": "f285e338d328a03920a9bfd8dda78585c7ddcca3"
@@ -501,7 +501,7 @@
     "revision": "77625d78eebc3ffc44d114a07b2f348dff3061b0"
   },
   "properties": {
-    "revision": "189b3cc18d36871c27ebb0adcf0cddd123b0cbba"
+    "revision": "ce2f4f66454edb69f66bfa3a1884f601fccd9e08"
   },
   "proto": {
     "revision": "e9f6b43f6844bd2189b50a422d4e2094313f6aa3"
@@ -522,10 +522,10 @@
     "revision": "2517b1ee2236353af761edbd22570f740f1603f1"
   },
   "pymanifest": {
-    "revision": "41a15c43252baa083729c25646cde83ee5c88277"
+    "revision": "69ad424b5dd41088206bd74ebcdd61d987b7825c"
   },
   "python": {
-    "revision": "deba2badc88afd18e6cbd4341ee3c18c3a9bb4ed"
+    "revision": "22d3f87bdafac2782e907330babe4af574f5d0b4"
   },
   "ql": {
     "revision": "ff04ba61857ba05b80221e71b423b2728dbebe1e"
@@ -564,7 +564,7 @@
     "revision": "9ac75e71b2d791e0aadeef68098319d86a2a14cf"
   },
   "requirements": {
-    "revision": "00084464ccad32dd71da60771c25554eeedb213c"
+    "revision": "d43b6ec982902df01ce00df85a0cdb6ec8d3e81f"
   },
   "rnoweb": {
     "revision": "502c1126dc6777f09af5bef16e72a42f75bd081e"
@@ -582,7 +582,7 @@
     "revision": "22a0bb2678755a3714e194609862ea7f4516e807"
   },
   "rust": {
-    "revision": "85a21c96d31b2a5c4369e5836a7f4ab059268fea"
+    "revision": "2d7bac5164c344c95530c16dd5c8fa1319e34308"
   },
   "scala": {
     "revision": "e02f003d78dc269fef287b9b7b9963dc1f26bd7e"
@@ -612,7 +612,7 @@
     "revision": "65a6c3b4671877821082164da0a310851b211953"
   },
   "solidity": {
-    "revision": "168020304759ad5d8b4a88a541a699134e3730c5"
+    "revision": "5cb506ae419c4ad620c77210fd47500d3d169dbc"
   },
   "soql": {
     "revision": "857077f9e6bb04df0f769c18d32bfe036911adc8"
@@ -633,7 +633,7 @@
     "revision": "e8b5835296f931bcaa1477d3c5a68a0c5c2ba034"
   },
   "ssh_config": {
-    "revision": "b8595820fa331977a5a44f5f9e0a445c456b5cbf"
+    "revision": "3a1a5e139514a0e2789d1d7c5065c01bb71756f2"
   },
   "starlark": {
     "revision": "b31a616aac5d05f927f3f9dd809789db7805b632"
@@ -654,7 +654,7 @@
     "revision": "04a126d9210def99f06d9ab84a255110b862d47c"
   },
   "swift": {
-    "revision": "e1ac0c3b48f4c42c40f92f400f14c6561369d4dd"
+    "revision": "fc00cbb460b40228b30f322b5a34ea0e8f35a9f8"
   },
   "sxhkdrc": {
     "revision": "440d5f913d9465c9c776a1bd92334d32febcf065"
@@ -720,10 +720,10 @@
     "revision": "43b221c0b76e77244efdaa9963e402a17c930fbc"
   },
   "typst": {
-    "revision": "c757be0898e2a58f4e9761aa164dc413bf5beaf8"
+    "revision": "baddc325e858afff90501dbefa00ecfa28528931"
   },
   "udev": {
-    "revision": "15d89be59a3802dcbe2e97e0f9d32b52f3aeda3f"
+    "revision": "caa721ff38704c1186c2afeb467bead8c27ea382"
   },
   "ungrammar": {
     "revision": "debd26fed283d80456ebafa33a06957b0c52e451"
@@ -738,7 +738,7 @@
     "revision": "4c5ecd6326ebd61f6f9a22a370cbd100e0d601da"
   },
   "v": {
-    "revision": "56d7905f423b82dff4b23c86e2869ddc06f6e419"
+    "revision": "46b8341458bb620a82ef1d8009a3e2f00bc0dad9"
   },
   "vala": {
     "revision": "8f690bfa639f2b83d1fb938ed3dd98a7ba453e8b"
@@ -765,7 +765,7 @@
     "revision": "cbd58ee33e24f46d16b9882b001eefb25a958ee2"
   },
   "wing": {
-    "revision": "52ef462f76e199845a5df4834b838339e0a6efdb"
+    "revision": "77327e10402194009d8d65574454c7bb101b54ca"
   },
   "xcompose": {
     "revision": "7fd14940e0478fce79ea195067ed14a2c42c654a"
