@@ -26,6 +26,7 @@ local function register_lang(lang, ft)
 end
 
 for ft, lang in pairs {
+  automake = "make",
   javascriptreact = "javascript",
   ecma = "javascript",
   jsx = "javascript",
@@ -130,7 +131,7 @@ list.asm = {
 list.astro = {
   install_info = {
     url = "https://github.com/virchau13/tree-sitter-astro",
-    files = { "src/parser.c", "src/scanner.cc" },
+    files = { "src/parser.c", "src/scanner.c" },
   },
   maintainers = { "@virchau13" },
 }
@@ -170,7 +171,7 @@ list.bass = {
 list.beancount = {
   install_info = {
     url = "https://github.com/polarmutex/tree-sitter-beancount",
-    files = { "src/parser.c", "src/scanner.cc" },
+    files = { "src/parser.c", "src/scanner.c" },
   },
   maintainers = { "@polarmutex" },
 }
@@ -619,6 +620,15 @@ list.gdscript = {
   readme_name = "Godot (gdscript)",
 }
 
+list.gdshader = {
+  install_info = {
+    url = "https://github.com/GodOfAvacyn/tree-sitter-gdshader",
+    files = { "src/parser.c" },
+  },
+  filetype = "gdshaderinc",
+  maintainers = { "@godofavacyn" },
+}
+
 list.git_rebase = {
   install_info = {
     url = "https://github.com/the-mikedavis/tree-sitter-git-rebase",
@@ -748,6 +758,14 @@ list.gowork = {
   maintainers = { "@omertuc" },
 }
 
+list.gotmpl = {
+  install_info = {
+    url = "https://github.com/ngalaiko/tree-sitter-go-template",
+    files = { "src/parser.c" },
+  },
+  maintainers = { "@qvalentin" },
+}
+
 list.gpg = {
   install_info = {
     url = "https://github.com/ObserverOfTime/tree-sitter-gpg-config",
@@ -826,6 +844,15 @@ list.heex = {
     files = { "src/parser.c" },
   },
   maintainers = { "@connorlay" },
+}
+
+list.helm = {
+  install_info = {
+    url = "https://github.com/ngalaiko/tree-sitter-go-template",
+    location = "dialects/helm",
+    files = { "src/parser.c" },
+  },
+  maintainers = { "@qvalentin" },
 }
 
 list.hjson = {
@@ -2195,8 +2222,9 @@ list.vue = {
   install_info = {
     url = "https://github.com/tree-sitter-grammars/tree-sitter-vue",
     files = { "src/parser.c", "src/scanner.c" },
+    branch = "main",
   },
-  maintainers = { "@WhyNotHugo" },
+  maintainers = { "@WhyNotHugo", "@lucario387" },
 }
 
 list.wgsl = {
@@ -2246,10 +2274,10 @@ list.xml = {
 
 list.yaml = {
   install_info = {
-    url = "https://github.com/ikatyang/tree-sitter-yaml",
-    files = { "src/parser.c", "src/scanner.cc" },
+    url = "https://github.com/tree-sitter-grammars/tree-sitter-yaml",
+    files = { "src/parser.c", "src/scanner.c" },
   },
-  maintainers = { "@stsewd" },
+  maintainers = { "@amaanq" },
 }
 
 list.yang = {
