@@ -199,15 +199,15 @@
   "static"
   "strictfp"
   "transitive"
-] @type.qualifier
+] @keyword.modifier
 
 (modifiers
-  "synchronized" @type.qualifier)
+  "synchronized" @keyword.modifier)
 
 [
   "transient"
   "volatile"
-] @keyword.storage
+] @keyword.modifier
 
 [
   "return"
