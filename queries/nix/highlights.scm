@@ -55,6 +55,7 @@
 [
   "."
   ";"
+  ":"
   ","
 ] @punctuation.delimiter
 
@@ -74,7 +75,7 @@
   "?"? @operator)
 
 ; `...` in `{ ... }`, used to ignore unknown named function arguments (see above)
-(ellipses) @punctuation.special
+(ellipses) @variable.parameter.builtin
 
 ; universal is the parameter of the function expression
 ; `:` in `x: y`, used to separate function argument from body (see above)
@@ -84,9 +85,8 @@
 
 ; function calls
 (apply_expression
-  function:
-    (variable_expression
-      name: (identifier) @function.call))
+  function: (variable_expression
+    name: (identifier) @function.call))
 
 ; basic identifiers
 (variable_expression) @variable
@@ -101,12 +101,10 @@
 
 ; builtin functions (with builtins prefix)
 (select_expression
-  expression:
-    (variable_expression
-      name: (identifier) @_id)
-  attrpath:
-    (attrpath
-      attr: (identifier) @function.builtin)
+  expression: (variable_expression
+    name: (identifier) @_id)
+  attrpath: (attrpath
+    attr: (identifier) @function.builtin)
   (#eq? @_id "builtins"))
 
 ; builtin functions (without builtins prefix)
@@ -158,9 +156,8 @@
 
 (select_expression
   expression: (_) @_expr
-  attrpath:
-    (attrpath
-      attr: (identifier) @variable.member)
+  attrpath: (attrpath
+    attr: (identifier) @variable.member)
   (#not-eq? @_expr "builtins"))
 
 (attrset_expression
@@ -179,9 +176,8 @@
 
 ; function definition
 (binding
-  attrpath:
-    (attrpath
-      attr: (identifier) @function)
+  attrpath: (attrpath
+    attr: (identifier) @function)
   expression: (function_expression))
 
 ; unary operators
@@ -191,6 +187,12 @@
 ; binary operators
 (binary_expression
   operator: _ @operator)
+
+[
+  "="
+  "@"
+  "?"
+] @operator
 
 ; integers, also highlight a unary -
 [

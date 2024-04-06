@@ -31,14 +31,12 @@
   name: (identifier) @function)
 
 (function_definition
-  name:
-    (field_expression
-      (identifier) @function .))
+  name: (field_expression
+    (identifier) @function .))
 
 (short_function_definition
-  name:
-    (field_expression
-      (identifier) @function .))
+  name: (field_expression
+    (identifier) @function .))
 
 ; calls
 (call_expression
@@ -59,7 +57,7 @@
   (_)
   (operator) @_pipe
   (identifier) @function.call
-  (#eq? @_pipe "|>"))
+  (#any-of? @_pipe "|>" ".|>"))
 
 ; Builtins
 ((identifier) @function.builtin
